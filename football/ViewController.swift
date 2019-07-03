@@ -54,8 +54,61 @@ class ViewController: UIViewController {
     @IBAction func GKBtnTapped(_ sender: Any) {
         buttonTapped(myButton: GKBtn)
     }
+    
     @IBAction func CDBtnTapped(_ sender: Any) {
         buttonTapped(myButton: CDBtn)
+    }
+    
+    @IBAction func RFBBtnTapped(_ sender: Any) {
+        buttonTapped(myButton: RFBBtn)
+    }
+    
+    @IBAction func LFBBtnTapped(_ sender: Any) {
+        buttonTapped(myButton: LFBBtn)
+    }
+    
+    @IBAction func RWBBtnTapped(_ sender: Any) {
+        buttonTapped(myButton: RWBBtn)
+    }
+    
+    @IBAction func LWBBtnTapped(_ sender: Any) {
+        buttonTapped(myButton: LWBBtn)
+    }
+    
+    @IBAction func DMBtnTapped(_ sender: Any) {
+        buttonTapped(myButton: DMBtn)
+    }
+    
+    @IBAction func CMBtnTapped(_ sender: Any) {
+        buttonTapped(myButton: CMBtn)
+    }
+    
+    @IBAction func LMBtnTapped(_ sender: Any) {
+        buttonTapped(myButton: LMBtn)
+    }
+    
+    @IBAction func RMBtnTapped(_ sender: Any) {
+        buttonTapped(myButton: RMBtn)
+    }
+    
+    @IBAction func AMBtnTapped(_ sender: Any) {
+        buttonTapped(myButton: AMBtn)
+    }
+    
+    @IBAction func RWBtnTapped(_ sender: Any) {
+        buttonTapped(myButton: RWBtn)
+    }
+    
+    @IBAction func LWBtnTapped(_ sender: Any) {
+        buttonTapped(myButton: LWBtn)
+    }
+    
+    @IBAction func FWBtnTapped(_ sender: Any) {
+        buttonTapped(myButton: FWBtn)
+    }
+    
+    @IBAction func STBtnTapped(_ sender: Any) {
+        buttonTapped(myButton: STBtn)
     }
     
     func buttonSetup(myButton: UIButton) {
